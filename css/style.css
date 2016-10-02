@@ -1,0 +1,256 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+font-family: 'Ropa Sans', sans-serif;
+   font-size: 100%;
+   background:#fff; 
+}
+/*--header start here--*/
+span.menu{
+     display:none;
+}
+span.bann-line {
+	background: url(../images/bann-line.jpg);
+	width: 100%;
+	height: 8px;
+	display: inline-block;
+	margin: 30px 0px 0px 0px;
+        margin-left: 90px;
+}
+.header {
+	padding: 0px 0px;
+}
+/*--header end here--*/
+/*--banner start here--*/
+.banner {
+	background: url(../images/stock.jpg)no-repeat;
+	min-height: 576px;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cove;
+	padding: 24px 0px 0px 0px;
+	text-align: center;
+}
+.banner-left {
+	float: left;
+	width: 50%;
+}
+.banner-left h3 {
+	font-size: 50px;
+	font-weight: 400;
+	color: #C3C9C9;
+}
+@media(max-width:1024px){
+.banner {
+	min-height: 475px;
+	padding: 195px 0px 0px 0px;
+}	
+}
+@media(max-width:768px){
+.banner {
+	min-height: 363px;	
+	padding: 145px 0px 0px 0px;
+}
+.banner-left h3 {
+	font-size: 40px;
+}
+}
+@media(max-width:640px){
+.banner {
+	min-height: 299px;
+	padding: 120px 0px 0px 0px;
+}
+.banner-left h3 {
+	font-size: 35px;
+}
+}
+@media(max-width:480px){
+.banner {
+	min-height: 219px;
+	padding: 86px 0px 0px 0px;
+}
+.banner-left h3 {
+	font-size: 25px;
+}
+}
+@media(max-width:320px){
+.banner {
+	min-height: 138px;
+	padding: 50px 0px 0px 0px;
+}	
+.banner-left h3 {
+	font-size: 16px;
+}
+}
+/*--banner end here--*/
+/*--work start here--*/
+.work {
+	padding: 50px 0px;
+	position: relative;
+}
+.work-top {
+	position: relative;
+}
+span.work-strip {
+	background: url(../images/work-strip2.png)no-repeat -30px 0px;
+	width: 906px;
+        font-family:Bookman Old Style;
+	height: 40px;
+	display: block;
+	margin: 1em auto;
+	padding: 7px 0px 0px 0px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 400;
+	color: #fff;
+}
+span.work-col {
+	color: #D2D5D5;
+	display: block;
+}
+.work-top h3 {
+	font-size: 25px;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+	line-height: 1.6em;
+}
+.work-grid {
+	float: left;
+	width: 25%;
+	padding: 0px 16px 0px 0px;
+}
+.insert {
+	padding: 0px 0px;
+        margin-left: 100px;
+        width: 1150px;
+}
+.insert input[type="text"] {
+	outline: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	padding:3px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	
+	margin: 0px 15px 0px 0px;
+}
+.insert input[type="date"] {
+	outline: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	padding:0px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 40%;
+	margin: 0px 15px 0px 0px;
+}
+.insert input[type="number"] {
+	outline: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	padding:0px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 40%;
+	margin: 0px 15px 0px 0px;
+        margin-top: 15px;
+}
+.insert input[type="email"] {
+	outline: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	padding:0px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 40%;
+	margin: 0px 15px 0px 0px;
+        margin-top: 15px;
+}
+
+.insert select {
+	outline: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	padding:0px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 40%;
+	margin: 0px 15px 0px 0px;
+        margin-top: 15px;
+}
+.insert textarea {
+	outline: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	resize: none;
+	width: 80%;
+	padding:10px;
+	height: 10em;
+	border: 1px solid #ccc;
+	margin: 15px 0px;
+}
+.insert input[type="submit"] {
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+        background: #67d8ee;
+	border: none;
+	outline: none;
+	padding: 10px 30px;
+	-webkit-appearance: none;
+        font-weight: 400;
+}
+.insert input[type="submit"]:hover{
+    background: #67d8ee;
+    color: #000000;
+        font-weight: 500;
+       	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.insert input[type="button"] {
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+        background: #67d8ee;
+	border: none;
+	outline: none;
+	padding: 10px 30px;
+	-webkit-appearance: none;
+        font-weight: 400;
+}
+.insert input[type="button"]:hover{
+    background: #67d8ee;
+    color: #000000;
+        font-weight: 500;
+       	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+
+/*------------------ Slider Part starts Here----------*/
+/*--copyright start here--*/
+/*--about start here--*/
+/*--contact end here--*/
